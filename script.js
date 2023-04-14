@@ -14,4 +14,4 @@ function nonrepeat(s) {
     return ans;
 }
 let s = prompt("Enter a string");
-alert(non repeat(s);)
+alert(nonrepeat(s));
