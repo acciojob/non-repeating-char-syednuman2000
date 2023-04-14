@@ -7,7 +7,7 @@ function nonrepeat(s) {
     for(let i=0;i<s.length;i++){
         arr[s.charCodeAt(i)-97]++;
     }
-    let ans = undefined;
+    let ans = null;
     for(let i=0;i<s.length;i++){
         if(arr[s.charCodeAt(i)-97]==1) ans = s.charAt(i);
     }
